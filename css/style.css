@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+/* Confuguracion inicial */
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header{
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0); */
+    /* background-image: url('/img/fodo.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),  url('/img/fodo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+/* header::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    position: fixed;
+    opacity: 0.8;
+} */
+header h1,h2,p,i{
+    position: relative;
+}
+/* -----------------------NAVBAR-------------------------------- */
+#contenedor-navBar{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    align-items: center;
+    
+}
+#contenedor-navBar .logo{
+    margin: 10px;
+    width: 120px;
+}
+
+#contenedor-navBar ul{
+    display: flex;
+}
+#contenedor-navBar ul li{
+    font-family: 'Poppins', serif;
+    font-weight:300;
+    font-size: 14px;
+    margin-right: 50px;
+    list-style: none;
+    
+
+}
+#contenedor-navBar a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+#contenedor-navBar a:hover{
+    border-bottom: 1px solid #ffffff;
+    transition: 0.6s;
+}
+/* -----------------------TITULAR-------------------------------- */
+.contenedor-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin: 15vh 0 0 0;
+}
+.contenedor-title h1{
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin: auto;
+}
+.contenedor-title h2 {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: auto;
+}
+/* ----------------------SECCION-CONTACTO------------------------------- */
+.contenedor-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15vh 0 0 0;
+    /* background-color: aquamarine; */
+}
+.contenedor-info .info{
+    margin: 0 20px 0 20px;
+    width: 20%;
+    height: 220px ;
+}
+
+.contenedor-info .info h1{
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    
+}
+.contenedor-info .info i{
+margin: 10px;
+font-size: 30px;
+}
+.contenedor-info .info p{
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+/* ------------------------FOOTER-------------------------------- */
+
+footer .contenedor {
+    color: #ffffff;
+    /* position: relative; */
+    
+}
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('/img/footer2.jpg');
+    /* background-image: url('/img/footer.jpg'); */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 20vh;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+footer .contenedor .eslogan h1 {
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 1vh;
+}
+
+footer .contenedor .contacto {
+    display: flex;
+    justify-content:center; 
+    margin: 1vh;
+}
+footer .contenedor .contacto .foot h2 {
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+footer .contenedor .foot {
+    margin: 0 20px 0 20px;
+    width: 20%;
+    height: 220px ;
+}
+footer .contenedor .foot i {
+    margin: 10px;
+    font-size: 40px;
+}
+footer .contenedor .foot p {
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+/* REDES-SOCIALES */
+
+footer .contenedor .redes {
+    margin: 0;
+}
+footer .contenedor .redes .social{
+    margin: 0 0 2px 0;
+    font-size: 30px;
+}
+footer .contenedor .redes .referencia p{
+    margin: 0;
+}
+footer .contenedor .derechos p{
+    margin: 8px 0 0 0;
+}
+footer .redes i{
+    transform: rotate(0);
+    transition: 0.4s;
+}
+footer .redes i:hover{
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+
