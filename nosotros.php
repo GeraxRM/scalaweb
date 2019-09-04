@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ScalaNegocios</title>
     <link rel="stylesheet" href="/SitioWeb/css/style.css">
@@ -14,7 +14,7 @@
 
 <body>
     <header id="nosotros">
-    <?php
+        <?php
         require_once 'navbar.php';
     ?>
 
@@ -22,14 +22,32 @@
             <div class="contenedor-title">
                 <div class="title">
                     <h1>¿Quiénes somos?</h1>
-                    <h2>Somos una agencia de negocios para emprendedores, empresarios  y gobierno, que  <br /> quieran crear, desarrollar o mejorar sus empresas.</h2>
+                    <p>Somos una agencia de negocios para emprendedores, empresarios y gobierno, que quieran crear,
+                        desarrollar o mejorar sus empresas.</p>
                 </div>
             </div>
         </div>
     </header>
-    
+    <main>
+        <section id="proposito">
+            <div class="contenedor" id="contenedor-propositos">
+                    <div class="box">
+                            <h1>Misión</h1>
+                            <p>Brindar a nuestros clientes estrategias de negocios versátiles promoviendo el crecimiento y la innovación continua.</p>
+                    </div>
+                    <div class="box">
+                            <h1>Visión</h1>
+                            <p>Ser una promotora negocios para el desarrollo económico sostenible.</p>
+                    </div>
+                    <div class="box">
+                            <h1>Objetivo</h1>
+                            <p>Ser una promotora negocios para el desarrollo económico sostenible.</p>
+                    </div>
+            </div>
+        </section>
+    </main>
     <footer>
-    <?php
+        <?php
         require_once 'footer.php';
     ?>
     </footer>
