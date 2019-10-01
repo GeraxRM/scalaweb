@@ -1,6 +1,6 @@
 <div class="contenedor" id="contenedor-navBar">
             <img class="logo" src="/SitioWeb/img/ScalaBlanco.gif" alt="ScalaNegocios">
-            
+            <i class="fas fa-bars" id="menu-icon"></i>
             <nav>
                 <ul>
                     <li><a href="">INICIO</a></li>
