@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="contenedor" id="animate">
+        <!-- <div class="contenedor" id="animate">
             <div class="contenedor-info">
                 <div class="info">
                     <i class="fas fa-map-marker-alt"></i>
@@ -44,7 +44,7 @@
                     <p>scalanegocios@gmail.com,<br />
                         reolij@gmail.com</p>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </header>
