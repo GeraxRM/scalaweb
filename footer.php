@@ -23,7 +23,7 @@
                 </div>
                 <div class="redes">
                         <div class="social">
-                            <i class="fab fa-facebook"></i>
+                            <a href="http://www.facebook.com/scalanegocios/"><i class="fab fa-facebook"></i></a>
                             <i class="fab fa-instagram"></i>
                         </div>
                         <div class="referencia">

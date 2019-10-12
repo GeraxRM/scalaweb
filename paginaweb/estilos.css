@@ -1,0 +1,311 @@
+body{
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0p;
+  /* Con el margin y padding eliminamos las orillas blancas */
+
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1280px;
+  margin: auto; <! Margen automatico:>
+}
+
+header{
+  height: 100vh;
+  background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.05)),url('/SitioWeb/imagenes/idea.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+
+#contenedor-menu{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 13px;
+}
+
+header .logo{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+
+
+.contenedor-titulo {
+  display: flex;
+  justify-content: center;
+   margin: 18vh 0; /* 18 es el margen en top y bottom y el 0 margen a los costados.  18vh: 18% del alto de la ventana del navegador. También se aplica para mobile, sería 18% del alto del celular. Esta propiedad es muy util para mobile. */
+}
+
+.contenedor-titulo h1 {
+  font-size: 49px;
+  color: #fff;
+  margin-top: 295px;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px black;
+}
+
+.contenedor-titulo h2 {
+  font-size: 44px;
+  color: #fff;
+  text-align: center;
+  margin-top: -15;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.contenedor-titulo .titulo{
+  text-align: center;
+}
+
+#servicios h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-servicios .violeta{
+  background-image: linear-gradient(to top, #5055df, #6d68f3);
+  box-shadow: 15px 13px 21px -15px rgba(0,0,0,0.75);
+}
+
+.contenedor-servicios .celeste{
+  background-image: linear-gradient(to top, #40a8f9, #5cb8ff);
+  box-shadow: 15px 13px 21px -15px rgba(0,0,0,0.75);
+}
+
+.contenedor-servicios{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* wrap los elementos bajan automaticamente si detectan mucho espacio */
+  color: #fff;
+}
+
+.contenedor-servicios .servicio {
+  padding: 34px 30px 45px 30px;
+  border-radius: 10px;
+  width: 24%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.contenedor-servicios h4{
+  font-size: 28px;
+  margin: 0;
+}
+
+.contenedor-servicios p{
+  opacity: .8;
+  /* Hace que el color del texto no sea tan fuerte.*/
+  margin-bottom: 37px;
+  height: 238px;
+  /* Hace que empiecen a la misma altura los textos, por ende los iconos empiezan justo a la misma altura. */
+}
+
+.contenedor-servicios .icono{
+float: right;
+}
+
+.contenedor-servicios .waves{
+  width: 100%;
+  /* Ocupa el ancho del 100% del div. */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#como-lo-hacemos h1{
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 25px;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+}
+
+#como-lo-hacemos i{
+  color: white;
+}
+
+#como-lo-hacemos h3{
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+
+}
+#como-lo-hacemos p{
+  font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#como-lo-hacemos{
+    height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('/SitioWeb/imagenes/como.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#trabajos{
+
+  height: 490px;
+}
+
+#trabajos h1 {
+  font-size: 55px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  text-shadow: 2px 2px 4px gray;
+}
+
+#trabajos img{
+  transform: scale(1);
+  transition: .2s;
+}
+
+/* el hover es para cuando se pasa el mouse por encima. */
+#trabajos img:hover {
+transform: scale(1.1);
+transition: .3s;
+}
+
+#trabajos p {
+  text-align: center;
+}
+
+.owl-nav.disabled {
+display: block !important;
+}
+
+.owl-nav button {
+  color: #5cb8ff !important;
+  margin: 0 46px !important;
+  font-size: 59px !important;
+}
+
+.owl-dots {
+  display: none !important;
+}
+
+.owl-nav button:hover {
+  background: none !important;
+}
+
+#servicio{
+
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)),  url('/SitioWeb/imagenes/servicios/servicio.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.contenedor-servicio h1{
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 0;
+}
+
+.contenedor-servicio p{
+  font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 26px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+#ejemplos-servicios{
+    height: 80vh;
+    background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(52, 52, 52, 1)),  url('/SitioWeb/imagenes/como.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.contenedor-info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0vh 0 0 0;
+    /* background-color: aquamarine; */
+}
+.contenedor-info1 .info1 {
+    margin: 0 20px 0 20px;
+    width: 20%;
+    height: 220px ;
+    margin-top: 15px;
+    margin-bottom: -50px;
+}
+.contenedor-info1 .info2 {
+    margin: 0 20px 0 20px;
+    width: 20%;
+    height: 220px ;
+    margin-bottom: -50px;
+}
+
+.contenedor-info1 .info1  h3{
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.contenedor-info1 .info2  h3{
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.contenedor-info1 .info1 i{
+margin: 10px;
+font-size: 60px;
+margin-top: 30px;
+}
+
+.contenedor-info1 .info2 i{
+margin: 10px;
+font-size: 60px;
+margin-top: 30px;
+}
+
+.contenedor-info1 .info1 p{
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.contenedor-info1 .info2 p{
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Las flechas ya aparecen pero no se pueden modificar ni tampoco desaparecer los puntos, quizás cambiando el ,zip sí. */
