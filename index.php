@@ -42,7 +42,7 @@
               <h1>¿Cómo lo hacemos?</h1>
           </div>
           <div class="como-text">
-            <p>Basandonos en la experiencia analizamos el entorno y creamos un plan de acción enfocado al desarrollo económico-social. Aprovechamos la infraestructura empresarial existente y fortalecemos el capital humano con base en la capacitación continua.</p>
+            <p>Basándonos en la experiencia analizamos el entorno y creamos un plan de acción enfocado al desarrollo económico-social. Aprovechamos la infraestructura empresarial existente y fortalecemos el capital humano con base en la capacitación continua.</p>
 
             </div>
 
