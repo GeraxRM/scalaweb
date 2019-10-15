@@ -83,31 +83,31 @@
     <div class="contenedor-trabajos owl-carousel owl-theme">
 
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/malinaltepec.jpg" width="120" height="190" alt="The Cookie Way"></a>
+        <img src="imagenes/malinaltepec.jpg" width="120" height="190" alt="The Cookie Way"></a>
 
       </div>
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/copalillo.png" width="100" height="170" alt="The Cookie Way"></a>
+        <img src="imagenes/copalillo.png" width="100" height="170" alt="The Cookie Way"></a>
 
       </div>
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/tepecoa.png" height="230" alt="The Cookie Way"></a>
+        <img src="imagenes/tepecoa.png" height="230" alt="The Cookie Way"></a>
       </div>
 
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/tetipac.png"  height="220" alt="Tetipac"></a>
+        <img src="imagenes/tetipac.png"  height="220" alt="Tetipac"></a>
       </div>
 
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/apaxtla.jpg"   height="250"  alt="Wodin Digital"></a>
+        <img src="imagenes/apaxtla.jpg"   height="250"  alt="Wodin Digital"></a>
       </div>
 
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/sabrosur.png"  height="200" alt="Tetipac"></a>
+        <img src="imagenes/sabrosur.png"  height="200" alt="Tetipac"></a>
       </div>
 
       <div class="trabajo item">
-        <a href="https://www.facebook.com" target="_blank"><img src="imagenes/fertipoch.png"   height="210"  alt="Wodin Digital"></a>
+        <img src="imagenes/fertipoch.png"   height="210"  alt="Wodin Digital"></a>
       </div>
 
 
