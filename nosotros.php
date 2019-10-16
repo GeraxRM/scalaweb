@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ScalaNegocios</title>
-    <link rel="stylesheet" href="/SitioWeb/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700|Roboto:300,400,700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/d00b1f9a63.js"></script>
