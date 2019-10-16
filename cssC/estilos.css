@@ -15,7 +15,7 @@ body{
 
 header{
   height: 100vh;
-  background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.05)),url('/SitioWeb/imagenes/idea.jpg');
+  background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.05)),url('/imagenes/idea.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -71,16 +71,6 @@ header .logo{
   text-align: center;
   font-size: 55px;
   font-weight: normal;
-}
-
-.contenedor-servicios .violeta{
-  background-image: linear-gradient(to top, #5055df, #6d68f3);
-  box-shadow: 15px 13px 21px -15px rgba(0,0,0,0.75);
-}
-
-.contenedor-servicios .celeste{
-  background-image: linear-gradient(to top, #40a8f9, #5cb8ff);
-  box-shadow: 15px 13px 21px -15px rgba(0,0,0,0.75);
 }
 
 .contenedor-servicios{
@@ -157,7 +147,7 @@ float: right;
 
 #como-lo-hacemos{
     height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('/SitioWeb/imagenes/como.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('/imagenes/como.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -215,7 +205,7 @@ display: block !important;
 #servicio{
 
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)),  url('/SitioWeb/imagenes/servicios/servicio.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)),  url('/imagenes/servicios/servicio.png');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -244,7 +234,7 @@ display: block !important;
 
 #ejemplos-servicios{
     height: 80vh;
-    background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(52, 52, 52, 1)),  url('/SitioWeb/imagenes/como.jpg');
+    background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(52, 52, 52, 1)),  url('/imagenes/como.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
