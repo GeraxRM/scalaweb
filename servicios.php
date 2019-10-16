@@ -25,7 +25,7 @@
  <div class="contenedor-servicio">
    <div class="titulo-servicio">
      <h1>Servicios</h1>
-     <p>Nos dedicamos a diseñar estrategias de negocios a la medida, basándonos en el análisis del entorno.</p>
+     <p>Noss dedicamos a diseñar estrategias de negocios a la medida, basándonos en el análisis del entorno.</p>
     </div>
  </div>
 </div>
